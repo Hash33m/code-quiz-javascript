@@ -12,6 +12,9 @@ If you answer a question correctly, you will move on to the next one. If you ans
 
 At the end of the quiz, you will receive a score based on how many questions you answered correctly and how much time you had left. You can then compare your score with others who have taken the quiz.
 
+## Screenshot
+<img src="./assets/img/Image 4-3-23 at 10.56 PM.jpg">
+
 ## Features
 The JavaScript Code Quiz includes several features that make it fun and challenging to play. 
 Multiple-choice questions with four possible answers
