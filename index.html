@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Quiz Javascript</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <button id="SrcHighScore">Search High Scores </button>
+    </nav>
+    <h1>Code Quiz Javascript</h1>
+    <div class="timer">
+      <div>Time:</div>
+      <div id="timeRemaining">--</div>
+    </div>
+  </header>
+  <main>
+    <div class="mainContainer">
+      <div class="playNowBox">
+        <p id="question">Welcome to the Code Quiz! How will you do?</p>
+        <div id="optionsBox">
+          <p id="gameOver"></p>
+          <ul id="optionsList">
+            <li class="optionsList" id="option1">Option 1 placeholder</li>
+            <li class="optionsList" id="option2">Option 2 placeholder</li>
+            <li class="optionsList" id="option3">Option 3 placeholder</li>
+            <li class="optionsList" id="option4">Option 4 placeholder</li>
+          </ul>
+          <p id="answerfeedback"></p>
+        </div>
+        <div id="startButtonDiv">
+          <button id="startQuiz">Start Quiz!</button>
+          <button id="submitScore">Submit your score!</button>
+          <button id="playAgain">Play again!</button>
+          <div id="scoreBox">
+            <div id="scoreHeader">Score: </div>
+            <div id="scoreValue">0</div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="mainScoreBox">
+        <div id="highScoreBox">
+          <div id="highScoreActionBox">
+            <form id="intialsForm">
+              <input id="intials" type="text" placeholder="intials / Name">
+              <button id="submitRecord">Submit</button>
+              <button id="clearRecord">Clear Record</button>
+            </form>
+          </div>
+          <p id="highScoreHeader">Top High Scores:</p>
+          <ul>
+            <li class="scoreList">1. <span id="highScore1">-</span></li>
+            <li class="scoreList">2. <span id="highScore2">-</span></li>
+            <li class="scoreList">3. <span id="highScore3">-</span></li>
+            <li class="scoreList">4. <span id="highScore4">-</span></li>
+            <li class="scoreList">5. <span id="highScore5">-</span></li>
+          </ul>
+        </div>
+      </div>
+  </main>
+
+  <footer>
+    Hashim Mohamed © Its Alright 2023
+  </footer>
+  </body>
+<script src="./assets/script.js"></script>
+</html>
