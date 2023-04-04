@@ -11,8 +11,8 @@ header {
   color: white;
   display: flex;
   justify-content: space-between;
-  font-size: 40px;
-  line-height: 150%;
+  font-size: 30px;
+  line-height: 140%;
 }
 
 nav {
@@ -37,40 +37,40 @@ h1 {
 div.timer {
   display: flex;
   right: 0px;
-  font-size: 50px;
-  line-height: 150%;
-  padding-right: 25px;
+  font-size: 35px;
+  line-height: 130%;
+  padding-right: 20px;
 }
 
 .mainContainer {
-  margin: 50px 20px;
-  border: 2px solid black;
+  margin: 50px 25px;
+  border: 3px solid black;
   background-color: gray;
 }
 
 .playNowBox {
-  margin: 40px 20px;
+  margin: 45px 25px;
   padding-top: 15px;
-  border: 2px solid black;
+  border: 3px solid black;
   background-color: darkgray;
 }
 
 #optionsBox {
   text-align: center;
   align-items: center;
-  font-size: 25px;
-  padding-bottom: 10px;
+  font-size: 30px;
+  padding-bottom: 14px;
 }
 
 #question {
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
-  padding: 20px, 0px;
+  padding: 25px, 0px;
 }
 
 #optionsBox {
-  border: 2px solid black;
+  border: 3px solid black;
   margin-left: 3%;
   margin-right: 3%;
   margin-top: 10px;
@@ -79,16 +79,16 @@ div.timer {
 
 .optionsList {
   border: 2px solid black;
-  margin: 10px 10px 0px 10px;
-  padding-left: 20px;
+  margin: 15px 15px 0px 15px;
+  padding-left: 25px;
   background-color: #5d008b;
   color: white;
-  font-size: 20px;
-  line-height: 150%;
+  font-size: 25px;
+  line-height: 140%;
 }
 
 .optionsList:hover {
-  background-color: darkgreen;
+  background-color: rgb(100, 85, 0);
 
 }
 
@@ -103,14 +103,14 @@ div.timer {
 
 #startQuiz {
   background-color: white;
-  padding: 7px;
+  padding: 9px;
   background-color: #008b19;
   color: white;
 }
 
 #submitScore {
   background-color: white;
-  padding: 7px;
+  padding: 9px;
   background-color: #008b19;
   color: white;
   display: none;
@@ -118,7 +118,7 @@ div.timer {
 
 #playAgain {
   background-color: white;
-  padding: 7px;
+  padding: 9px;
   background-color: #008b19;
   color: white;
   visibility: hidden;
@@ -129,21 +129,21 @@ div.timer {
 }
 
 #initals {
-  line-height: 200%;
+  line-height: 150%;
   padding-left: 5px;
   background-color: lightgray;
 }
 
 #submitRecord {
   background-color: white;
-  padding: 7px;
+  padding: 9px;
   background-color: #5d008b;
   color: white;
 }
 
 #clearRecord {
   background-color: white;
-  padding: 7px;
+  padding: 9px;
   background-color: #5d008b;
   color: white;
 }
